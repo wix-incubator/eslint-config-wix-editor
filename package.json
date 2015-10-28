@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-wix-editor",
+  "version": "0.0.0",
+  "description": "Wix's editor group's custom ESLint config",
+  "author": "Dany Shaanan",
+  "repository": "git@github.com:wix/eslint-config-wix-editor.git",
+  "homepage": "https://github.com/wix/eslint-config-wix-editor",
+  "bugs": "https://github.com/wix/eslint-config-wix-editor/issues",
+  "keywords": [
+    "wix",
+    "eslint",
+    "eslint-config",
+    "code",
+    "lint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "peerDependencies": {
+    "eslint": ">=1.6.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
