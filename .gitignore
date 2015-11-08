@@ -1,3 +1,9 @@
+### Intellij ###
+.idea/
+*.ipr
+*.iws
+*.iml
+
 node_modules
 npm-debug.log
 .DS_Store

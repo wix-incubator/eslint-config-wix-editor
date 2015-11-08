@@ -65,7 +65,6 @@ module.exports = {
         "space-after-keywords": [2, "always"],
         "space-infix-ops": 2,
         "space-return-throw-case": 2,
-        "strict": 2,
         "valid-typeof": 2,
         "wrap-regex": 0,
 
@@ -134,12 +133,13 @@ module.exports = {
         "indent": [2, 4, {"SwitchCase": 1}],
         "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
         "space-before-blocks": [2, "always"],
+        "space-before-keywords": [2, "always"],
         "operator-linebreak": [2, "after"],
         "dot-location": [2, "property"],
-        "semi-spacing": [2, {"before": false, "after": true}],
         "array-bracket-spacing": [2, "never"],
         "object-curly-spacing": [2, "never"],
-        "no-throw-literal": 2
+        "no-throw-literal": 2,
+        "block-spacing": [0, "always"],
+        "no-useless-concat": 0
     }
-}
-;
+};
