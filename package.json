@@ -6,6 +6,11 @@
   "repository": "git@github.com:wix/eslint-config-wix-editor.git",
   "homepage": "https://github.com/wix/eslint-config-wix-editor",
   "bugs": "https://github.com/wix/eslint-config-wix-editor/issues",
+  "scripts": {
+    "patch": "npm version patch -m\"update version to %s\" && git push && git push --tags",
+    "minor": "npm version minor -m\"update version to %s\" && git push && git push --tags",
+    "major": "npm version major -m\"update version to %s\" && git push && git push --tags"
+  },
   "keywords": [
     "wix",
     "eslint",
