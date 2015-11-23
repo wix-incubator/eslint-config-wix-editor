@@ -30,14 +30,14 @@ Or to `.eslintrc`:
 	"extends": "wix-editor"
 }
 ```
-<!--
-This package also exposes [`wix-editor/somethingelse`](somethingelse.js) if you want somethingelse rules:
+
+This package also exposes [`wix-editor/node`](node.js) if you want node rules:
 
 ```json
 {
-	"extends": "wix-editor/somethingelse"
+	"extends": "wix-editor/node"
 }
-``` -->
+```
 
 
 ## License
