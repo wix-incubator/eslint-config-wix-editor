@@ -2,13 +2,17 @@
 
 module.exports = {
     "rules": {
+        "accessor-pairs": 2,
         "no-array-constructor": 2,
         "no-catch-shadow": 2,
         "comma-dangle": 2,
+        "comma-style": [2, "last"],
+        "computed-property-spacing": [2, "never"],
+        "callback-return": 0,
         "no-cond-assign": 2,
         "no-constant-condition": 2,
         "no-control-regex": 2,
-        "no-div-regex": 1,
+        "no-div-regex": 0,
         "no-else-return": 2,
         "no-empty-character-class": 2,
         "no-empty-label": 2,
@@ -18,6 +22,9 @@ module.exports = {
         "no-unneeded-ternary": 2,
         "strict": [2, "function"],
         "no-inner-declarations": [2, "functions"],
+        "no-implicit-coercion": 0,
+        "no-multiple-empty-lines": 0,
+        "no-negated-condition": 0,
         "no-iterator": 2,
         "no-labels": 2,
         "no-lone-blocks": 2,
@@ -28,12 +35,12 @@ module.exports = {
         "no-nested-ternary": 2,
         "no-new-require": 2,
         "no-octal-escape": 2,
-        "no-path-concat": 1,
+        "no-path-concat": 2,
         "no-process-exit": 2,
         "no-proto": 2,
         "no-redeclare": 2,
         "no-regex-spaces": 2,
-        "no-restricted-modules": 1,
+        "no-restricted-modules": 2,
         "no-script-url": 2,
         "no-sequences": 2,
         "no-shadow": 2,
@@ -51,7 +58,7 @@ module.exports = {
         "block-scoped-var": 2,
         "brace-style": [2, "1tbs", {"allowSingleLine": true}],
         "consistent-return": 2,
-        "consistent-this": [1, "self"],
+        "consistent-this": [2, "self"],
         "curly": [2, "all"],
         "default-case": 0,
         "func-names": 0,
@@ -65,6 +72,8 @@ module.exports = {
         "space-after-keywords": [2, "always"],
         "space-infix-ops": 2,
         "space-return-throw-case": 2,
+        "space-in-parens": [2, "never"],
+        "padded-blocks": [2, "never"],
         "valid-typeof": 2,
         "wrap-regex": 0,
 
@@ -114,7 +123,7 @@ module.exports = {
         "eqeqeq": 2,
         "new-parens": 2,
         "guard-for-in": 2,
-        "radix": 1,
+        "radix": 2,
         "new-cap": 2,
         "semi": 2,
         "use-isnan": 2,
@@ -140,6 +149,6 @@ module.exports = {
         "object-curly-spacing": [2, "never"],
         "no-throw-literal": 2,
         "block-spacing": [0, "always"],
-        "no-useless-concat": 0
+        "no-useless-concat": 2
     }
 };
