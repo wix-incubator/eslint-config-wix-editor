@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wix-editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Wix's editor group's custom ESLint config",
   "author": "Dany Shaanan",
   "repository": "git@github.com:wix/eslint-config-wix-editor.git",
@@ -26,6 +26,7 @@
     "eslint": ">=1.6.0"
   },
   "files": [
-    "index.js", "node.js"
+    "index.js",
+    "node.js"
   ]
 }
