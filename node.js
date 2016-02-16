@@ -14,7 +14,7 @@ var node = {
         "arrow-spacing": [2, { "before": true, "after": true }],
         "constructor-super": 2,
         "generator-star-spacing": [2, {"before": true, "after": false}],
-        "no-arrow-condition": 2,
+        "no-confusing-arrow": 2,
         "no-class-assign": 2,
         "no-const-assign": 2,
         "no-dupe-class-members": 2,
