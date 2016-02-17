@@ -150,7 +150,7 @@ module.exports = {
 
         "array-callback-return": 2,
         "newline-per-chained-call": [0, {"ignoreChainWithDepth": 3}],
-        "no-empty-function": 2,
+        "no-empty-function": 0,
         "no-extra-label": 2,
         "no-implicit-globals": 2,
         "no-new-symbol": 2,
