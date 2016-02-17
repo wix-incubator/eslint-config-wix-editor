@@ -26,7 +26,8 @@ var node = {
         "prefer-reflect": [0, { "exceptions": ["apply"] }],
         "prefer-spread": 0,
         "prefer-template": 2,
-        "require-yield": 2
+        "require-yield": 2,
+        "template-curly-spacing": 2
     }
 };
 

@@ -161,9 +161,9 @@ module.exports = {
         "no-useless-constructor": 2,
         "no-whitespace-before-property": 2,
         "one-var-declaration-per-line": 2,
-        "prefer-rest-params": 2,
+        "prefer-rest-params": 0,
         "sort-imports": 2,
-        "template-curly-spacing": 2,
-        "yield-star-spacing": 2
+        "template-curly-spacing": 0,
+        "yield-star-spacing": 0
     }
 };
