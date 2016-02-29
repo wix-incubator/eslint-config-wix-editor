@@ -7,6 +7,7 @@ var node = {
     },
     rules: {
         "strict": [2, "global"],
+        "semi": [2, "never"],
 
         /* es6 */
         "arrow-body-style": [2, "as-needed"],
@@ -20,6 +21,7 @@ var node = {
         "no-dupe-class-members": 2,
         "no-this-before-super": 2,
         "no-var": 2,
+        "one-var": [2, "never"],
         "object-shorthand": 2,
         "prefer-arrow-callback": 2,
         "prefer-const": 2,
