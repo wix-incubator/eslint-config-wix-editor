@@ -1,5 +1,10 @@
 # eslint-config-wix-editor
 
+[![NPM Version](https://img.shields.io/npm/v/eslint-config-wix-editor.svg?style=flat)](https://npmjs.org/package/eslint-config-wix-editor)
+[![License](http://img.shields.io/npm/l/eslint-config-wix-editor.svg?style=flat)](LICENSE)
+[![Dependency Status](https://david-dm.org/wix/eslint-config-wix-editor.svg)](https://david-dm.org/wix/eslint-config-wix-editor)
+[![devDependency Status](https://david-dm.org/wix/eslint-config-wix-editor/dev-status.svg)](https://david-dm.org/wix/eslint-config-wix-editor#info=devDependencies)
+
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for [Wix](https://github.com/wix)'s editor group
 
 
