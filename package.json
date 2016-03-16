@@ -23,7 +23,7 @@
   "dependencies": {},
   "devDependencies": {},
   "peerDependencies": {
-    "eslint": ">=1.6.0"
+    "eslint": ">=2.0.0"
   },
   "files": [
     "index.js",
