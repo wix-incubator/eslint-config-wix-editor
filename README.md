@@ -36,11 +36,11 @@ Or to `.eslintrc`:
 }
 ```
 
-This package also exposes [`wix-editor/node`](node.js) if you want node rules:
+This package also exposes [`wix-editor/node`](node.js). This config contains only node-specific rules and is meant to be used alongside the regular config:
 
 ```json
 {
-	"extends": "wix-editor/node"
+	"extends": ["wix-editor", "wix-editor/node"]
 }
 ```
 

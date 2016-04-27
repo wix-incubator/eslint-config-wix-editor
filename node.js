@@ -1,9 +1,8 @@
 'use strict';
-var root = require('.');
-var node = {
+module.exports = {
     env: {
-        es6: true,
-        node: true
+        "es6": true,
+        "node": true
     },
     rules: {
         "strict": [2, "global"],
@@ -32,5 +31,3 @@ var node = {
         "template-curly-spacing": 2
     }
 };
-
-module.exports = Object.assign(root, node);
