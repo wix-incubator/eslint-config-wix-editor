@@ -27,6 +27,9 @@
   },
   "files": [
     "index.js",
-    "node.js"
+    "node.js",
+    "santa.js",
+    "santa-es6.js",
+    "santa-test.js"
   ]
 }
