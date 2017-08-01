@@ -1,5 +1,5 @@
 'use strict';
-// santa es6 package
+// santa test package
 module.exports = {
     "extends": ["./santa.js"],
     "rules": {
