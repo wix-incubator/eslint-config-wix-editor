@@ -2,7 +2,14 @@
 // santa test package
 module.exports = {
     "extends": ["./santa.js"],
+    "plugins": [
+        "jasmine"
+    ],
+    "env": {
+        "jasmine": true
+    },
     "rules": {
+        "no-restricted-properties": 0,
         "santa/module-definition": 0,
         "santa/no-module-state": 0,
         "santa/enforce-package-access": 0,
@@ -50,11 +57,5 @@ module.exports = {
         "react/no-string-refs": 0,
         "react/prefer-es6-class": 0,
         "react/require-extension": 0
-    },
-    "plugins": [
-        "jasmine"
-    ],
-    "env": {
-        "jasmine": true
     }
 };
