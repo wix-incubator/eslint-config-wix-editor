@@ -1,6 +1,7 @@
 'use strict';
 // santa ssr package
 module.exports = {
+    "extends": ["./santa.js"],
     "rules": {
         "santa/no-module-state": 2,
         "santa/no-experiment-in-component": 2,
