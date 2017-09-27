@@ -31,6 +31,7 @@
     "santa.js",
     "santa-es6.js",
     "santa-ssr.js",
+    "santa-disable-ssr.js",
     "santa-test.js"
   ]
 }
