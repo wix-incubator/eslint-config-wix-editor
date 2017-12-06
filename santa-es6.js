@@ -8,10 +8,23 @@ module.exports = {
     "rules": {
         "react/prop-types": 2,
         "react/display-name": 2,
+
+        "quotes": [2, "single", "avoid-escape"],
+        "space-before-function-paren": 2,
+        "space-before-blocks": 2,
+        "quote-props": 0,
+        "no-extra-parens": 2,
+        "indent": [2, 4, {"SwitchCase": 1, "FunctionExpression": {"body": 1, "parameters": "first"}}],
+        "func-style": 2,
+        "key-spacing": 2,
+        "padded-blocks": 2,
+        "space-in-parens": 2,
+        "no-useless-concat": 2,
+
         /* es6 */
         "arrow-body-style": [2, "as-needed"],
         "arrow-parens": [2, "as-needed"],
-        "arrow-spacing": [2, { "before": true, "after": true }],
+        "arrow-spacing": [2, {"before": true, "after": true}],
         "constructor-super": 2,
         "generator-star-spacing": [2, {"before": true, "after": false}],
         "no-confusing-arrow": 2,
@@ -24,7 +37,7 @@ module.exports = {
         "object-shorthand": 2,
         "prefer-arrow-callback": 0,
         "prefer-const": 2,
-        "prefer-reflect": [0, { "exceptions": ["apply"] }],
+        "prefer-reflect": [0, {"exceptions": ["apply"]}],
         "prefer-spread": 0,
         "prefer-template": 2,
         "require-yield": 2
