@@ -8,5 +8,4 @@ node_modules
 npm-debug.log
 .DS_Store
 
-/package-lock.json
 /yarn.lock
