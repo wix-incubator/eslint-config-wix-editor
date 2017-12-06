@@ -15,7 +15,7 @@ module.exports = {
         "quote-props": 0,
         "no-extra-parens": 2,
         "indent": [2, 4, {"SwitchCase": 1, "FunctionExpression": {"body": 1, "parameters": "first"}}],
-        "func-style": 2,
+        "func-style": 0,
         "key-spacing": 2,
         "padded-blocks": 2,
         "space-in-parens": 2,
