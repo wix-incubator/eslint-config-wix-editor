@@ -1,7 +1,7 @@
 'use strict';
 // santa test package
 module.exports = {
-    "extends": ["./santa.js"],
+    "extends": ["./santa-es6.js"],
     "plugins": [
         "jasmine"
     ],
