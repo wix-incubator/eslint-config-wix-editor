@@ -14,6 +14,10 @@ module.exports = {
         "space-before-blocks": 2,
         "quote-props": 0,
         "no-extra-parens": 2,
+
+        // NOTE santa-ssr extends this rule
+        "no-restricted-syntax": [2, "ForOfStatement"],
+
         "indent": [2, 4, {"SwitchCase": 1, "FunctionExpression": {"body": 1, "parameters": "first"}}],
         "func-style": 0,
         "key-spacing": 2,

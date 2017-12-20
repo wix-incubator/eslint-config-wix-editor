@@ -1,5 +1,6 @@
 'use strict';
 module.exports = {
+    extends: ["./index"],
     env: {
         "es6": true,
         "node": true
@@ -7,6 +8,8 @@ module.exports = {
     rules: {
         "strict": [2, "global"],
         "semi": [2, "never"],
+
+        "func-style": [2, "declaration", {"allowArrowFunctions": true}],
 
         /* es6 */
         "arrow-body-style": [2, "as-needed"],
