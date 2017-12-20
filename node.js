@@ -1,6 +1,6 @@
 'use strict';
 module.exports = {
-    extends: ["./index"],
+    extends: ["wix-editor"],
     env: {
         "es6": true,
         "node": true
