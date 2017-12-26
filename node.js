@@ -1,6 +1,9 @@
 'use strict';
 module.exports = {
     extends: ["wix-editor"],
+    parserOptions: {
+        "ecmaVersion": 2017
+    },
     env: {
         "es6": true,
         "node": true
