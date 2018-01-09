@@ -5,6 +5,9 @@ module.exports = {
     "plugins": [
         "jasmine"
     ],
+    parserOptions: {
+        "ecmaVersion": 2017
+    },
     "env": {
         "jasmine": true
     },
