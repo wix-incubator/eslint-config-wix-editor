@@ -54,6 +54,7 @@ module.exports = {
         "santa/no-for-loop": 0,
         "santa/no-unused-imports": [2, ["_"]],
         "santa/no-spyon-experiment-isopen": 2,
+        "santa/no-spyon-console-error-without-callthrough": 2,
         "santa/declaration-in-for": 0,
         "santa/no-window-location-origin": 2,
         "wix-editor/prefer-ternary": 0,
