@@ -5,6 +5,13 @@ module.exports = {
     "plugins": [
         "jasmine"
     ],
+    "settings": {
+      "react": {
+        "createClass": "createReactClass", // Regex for Component Factory to use, default to "createClass",
+        "pragma": "React",  // Pragma to use, default to "React"
+        "version": "15.6.0"
+      }
+    },
     parserOptions: {
         "ecmaVersion": 2017
     },
@@ -53,7 +60,7 @@ module.exports = {
         "react/jsx-no-literals": 0,
         "react/jsx-pascal-case": 0,
         "react/no-danger": 0,
-        "react/no-deprecated": 0,
+        "react/no-deprecated": 2,
         "react/no-direct-mutation-state": 0,
         "react/no-is-mounted": 0,
         "react/no-set-state": 0,
