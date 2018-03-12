@@ -18,11 +18,11 @@ module.exports = {
     },
     "rules": {
         "max-len": [2, { "code": 1600, "ignoreComments": true }],
-        "no-restricted-properties": [2, {
-            "object": "Object",
-            "property": "assign",
-            "message": "Object assign it not supported in IE11."
-        }],
+        // "no-restricted-properties": [2, {
+        //     "object": "Object",
+        //     "property": "assign",
+        //     "message": "Object assign it not supported in IE11."
+        // }],
         "quotes": 0,
         "space-before-function-paren": 0,
         "space-before-blocks": 0,
