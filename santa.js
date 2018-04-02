@@ -32,7 +32,7 @@ module.exports = {
         "func-style": 0,
         "key-spacing": 0,
         "no-use-before-define": 0,
-        "no-throw-literal": 0,
+        "no-throw-literal": 2,
         "no-multi-spaces": 2,
         "consistent-this": [2, "self"],
         "id-match": [2, "^\\$?[a-zA-Z0-9_]*$"],
