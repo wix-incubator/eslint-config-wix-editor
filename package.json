@@ -28,6 +28,7 @@
   "files": [
     "index.js",
     "node.js",
+    "node-test.js",
     "santa.js",
     "santa-es6.js",
     "santa-ssr.js",

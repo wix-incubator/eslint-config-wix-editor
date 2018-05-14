@@ -1,9 +1,6 @@
 'use strict';
 module.exports = {
     extends: ["wix-editor"],
-    parserOptions: {
-        "ecmaVersion": 2017
-    },
     env: {
         "es6": true,
         "node": true
@@ -20,7 +17,6 @@ module.exports = {
         "arrow-spacing": [2, { "before": true, "after": true }],
         "constructor-super": 2,
         "generator-star-spacing": [2, {"before": true, "after": false}],
-        "no-confusing-arrow": 0,
         "no-class-assign": 2,
         "no-const-assign": 2,
         "no-dupe-class-members": 2,

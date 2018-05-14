@@ -81,6 +81,7 @@ module.exports = {
         "no-underscore-dangle": 0,
         "no-debugger": 2,
         "no-dupe-keys": 2,
+        "no-duplicate-case": 2,
         "no-empty": 2,
         "no-eval": 2,
         "no-ex-assign": 2,
@@ -164,6 +165,10 @@ module.exports = {
         "prefer-rest-params": 0,
         "sort-imports": 2,
         "template-curly-spacing": 0,
+        "no-confusing-arrow": 0,
         "yield-star-spacing": 0
+    },
+    parserOptions: {
+        "ecmaVersion": 2018
     }
 };
