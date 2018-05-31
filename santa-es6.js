@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 // santa es6 package
 module.exports = {
     "extends": ["./santa.js"],
@@ -6,6 +6,9 @@ module.exports = {
         "es6": true
     },
     "rules": {
+        "func-style": [0, "declaration", { "allowArrowFunctions": true }],
+        "template-curly-spacing": ["error", "never"],
+
         "react/prop-types": 2,
         "react/display-name": 2,
 
@@ -19,7 +22,6 @@ module.exports = {
         "no-restricted-syntax": [2, "ForOfStatement"],
 
         "indent": [2, 4, {"SwitchCase": 1, "FunctionExpression": {"body": 1, "parameters": "first"}}],
-        "func-style": 0,
         "key-spacing": 2,
         "padded-blocks": 2,
         "space-in-parens": 2,
@@ -45,4 +47,4 @@ module.exports = {
         "prefer-template": 2,
         "require-yield": 2
     }
-};
+}
