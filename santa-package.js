@@ -1,6 +1,6 @@
 module.exports = {
     "plugins": ["lodash", "react"],
-    "extends": ["./node", "plugin:lodash/recommended"],
+    "extends": ["./node.js", "plugin:lodash/recommended"],
     "parser": "babel-eslint",
     "rules": {
       "sort-imports": 0,
