@@ -3,6 +3,7 @@ module.exports = {
     "extends": ["./node.js", "plugin:lodash/recommended"],
     "parser": "babel-eslint",
     "rules": {
+      "sort-imports": 0,
       "lodash/no-commit": 2,
       "lodash/path-style": [0, "as-needed"],
       "lodash/prefer-constant": 0,
@@ -41,4 +42,3 @@ module.exports = {
       "jasmine": true
     }
   }
-  
