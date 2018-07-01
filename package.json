@@ -20,10 +20,14 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "eslint-plugin-lodash": "^2.7.0",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-santa": "^1.252.0"
+  },
   "devDependencies": {},
   "peerDependencies": {
-    "eslint": ">=3.0.0"
+    "eslint": ">=4.0.0"
   },
   "files": [
     "index.js",
