@@ -168,7 +168,7 @@ module.exports = {
         "sort-imports": 0,
         "no-confusing-arrow": 0,
         "yield-star-spacing": 0,
-        "async-promise-executor": 2,
+        "no-async-promise-executor": 2,
         "func-style": [2, "declaration", {"allowArrowFunctions": true}],
 
         /* es6 */
