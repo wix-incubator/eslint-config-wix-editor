@@ -21,14 +21,13 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "eslint-plugin-jasmine": "^2.10.1",
     "eslint-plugin-lodash": "^2.7.0",
     "eslint-plugin-react": "^7.10.0",
-    "eslint-plugin-santa": "^1.294.0"
+    "eslint-plugin-santa": "^1.252.0"
   },
   "devDependencies": {},
   "peerDependencies": {
-    "eslint": ">=5.0.0"
+    "eslint": ">=4.0.0"
   },
   "files": [
     "index.js",

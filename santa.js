@@ -1,5 +1,5 @@
 'use strict';
-// santa requirejs package
+// santa es5 package
 module.exports = {
     "extends": ["wix-editor", "plugin:lodash/canonical"],
     env: {
