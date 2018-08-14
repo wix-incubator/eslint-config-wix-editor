@@ -28,7 +28,6 @@ module.exports = {
         "no-useless-concat": 2,
 
         /* es6 */
-        "sort-imports": 0,
         "arrow-body-style": [2, "as-needed"],
         "arrow-parens": [2, "as-needed"],
         "arrow-spacing": [2, {"before": true, "after": true}],

@@ -1,7 +1,10 @@
 'use strict';
 
 module.exports = {
-    "rules": {
+    env: {
+        "es6": true
+    },
+    rules: {
         "accessor-pairs": 2,
         "no-array-constructor": 2,
         "no-catch-shadow": 2,
@@ -61,7 +64,6 @@ module.exports = {
         "curly": [2, "all"],
         "default-case": 0,
         "func-names": 0,
-        "func-style": [2, "declaration"],
         "max-depth": [0, 4],
         "max-len": [0, 80, 4],
         "max-nested-callbacks": [0, 2],
@@ -163,10 +165,31 @@ module.exports = {
         "no-whitespace-before-property": 2,
         "one-var-declaration-per-line": 2,
         "prefer-rest-params": 0,
-        "sort-imports": 2,
-        "template-curly-spacing": 0,
+        "sort-imports": 0,
         "no-confusing-arrow": 0,
-        "yield-star-spacing": 0
+        "yield-star-spacing": 0,
+        "async-promise-executor": 2,
+        "func-style": [2, "declaration", {"allowArrowFunctions": true}],
+
+        /* es6 */
+        "arrow-body-style": [2, "as-needed"],
+        "arrow-parens": [2, "as-needed"],
+        "arrow-spacing": [2, { "before": true, "after": true }],
+        "constructor-super": 2,
+        "generator-star-spacing": [2, {"before": true, "after": false}],
+        "no-class-assign": 2,
+        "no-const-assign": 2,
+        "no-dupe-class-members": 2,
+        "no-this-before-super": 2,
+        "no-var": 2,
+        "object-shorthand": 2,
+        "prefer-arrow-callback": 2,
+        "prefer-const": 2,
+        "prefer-reflect": [0, { "exceptions": ["apply"] }],
+        "prefer-spread": 0,
+        "prefer-template": 2,
+        "require-yield": 2,
+        "template-curly-spacing": 2
     },
     parserOptions: {
         "ecmaVersion": 2018
