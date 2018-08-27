@@ -24,7 +24,7 @@
     "eslint-plugin-jasmine": "^2.10.1",
     "eslint-plugin-lodash": "^2.7.0",
     "eslint-plugin-react": "^7.10.0",
-    "eslint-plugin-santa": "^1.294.0"
+    "eslint-plugin-wix-editor": "^1.1.1"
   },
   "devDependencies": {},
   "peerDependencies": {
