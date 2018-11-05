@@ -142,6 +142,7 @@ module.exports = {
         "space-before-blocks": [2, "always"],
         "keyword-spacing": 2,
         "operator-linebreak": [2, "after"],
+        "operator-assignment": [2, "always"],
         "dot-location": [2, "property"],
         "array-bracket-spacing": [2, "never"],
         "object-curly-spacing": [2, "never"],

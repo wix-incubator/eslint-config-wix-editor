@@ -103,6 +103,7 @@ module.exports = {
         "react/prefer-es6-class": 0,
 
         "lodash/chaining": [2, "always"],
+        "lodash/prefer-immutable-method": 0,
         "lodash/no-commit": 0,
         "lodash/path-style": 0,
         "lodash/prefer-constant": 0,

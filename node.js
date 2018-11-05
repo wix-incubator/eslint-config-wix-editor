@@ -1,6 +1,7 @@
 'use strict';
 module.exports = {
     extends: ["wix-editor"],
+    plugins: ["import"],
     env: {
         "es6": true,
         "node": true
@@ -30,6 +31,15 @@ module.exports = {
         "prefer-spread": 0,
         "prefer-template": 2,
         "require-yield": 2,
-        "template-curly-spacing": 2
+        "template-curly-spacing": 2,
+
+        "import/no-unresolved": 2,
+        "import/no-absolute-path": 2,
+        "import/no-cycle": 2,
+        "import/no-self-import": 2,
+        "import/no-useless-path-segments": 2,
+        "import/export": 2,
+        "import/no-extraneous-dependencies": 2,
+        "import/no-mutable-exports": 2
     }
 };
