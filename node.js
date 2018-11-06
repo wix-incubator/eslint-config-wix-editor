@@ -33,13 +33,13 @@ module.exports = {
         "require-yield": 2,
         "template-curly-spacing": 2,
 
-        "import/no-unresolved": 0,
-        "import/no-absolute-path": 0,
-        "import/no-cycle": 0,
-        "import/no-self-import": 0,
-        "import/no-useless-path-segments": 0,
-        "import/export": 0,
-        "import/no-extraneous-dependencies": 0,
-        "import/no-mutable-exports": 0
+        "import/no-unresolved": 2,
+        "import/no-absolute-path": 2,
+        "import/no-cycle": 2,
+        "import/no-self-import": 2,
+        "import/no-useless-path-segments": 2,
+        "import/export": 2,
+        "import/no-extraneous-dependencies": 2,
+        "import/no-mutable-exports": 2
     }
 };
