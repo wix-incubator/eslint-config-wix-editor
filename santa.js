@@ -64,7 +64,6 @@ module.exports = {
         "wix-editor/no-unneeded-match": 2,
         "wix-editor/simplify-boolean-expression": 2,
         "wix-editor/prefer-filter": 2,
-        "wix-editor/augmented-assignment": 2,
         "no-duplicate-case": 0,
         "react/display-name": 0,
         "react/jsx-boolean-value": 2,
