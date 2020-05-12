@@ -1,15 +1,15 @@
 {
   "name": "eslint-config-wix-editor",
   "version": "7.3.0",
-  "description": "Wix's editor group's custom ESLint config",
+  "description": "Wix's editor company's custom ESLint config",
   "author": "idok",
   "repository": "git@github.com:wix/eslint-config-wix-editor.git",
   "homepage": "https://github.com/wix/eslint-config-wix-editor",
   "bugs": "https://github.com/wix/eslint-config-wix-editor/issues",
   "scripts": {
-    "patch": "npm version patch -m\"update version to %s\" && git push && git push --tags",
-    "minor": "npm version minor -m\"update version to %s\" && git push && git push --tags",
-    "major": "npm version major -m\"update version to %s\" && git push && git push --tags"
+    "patch": "npm version patch -m\"update version to %s\" && git push --follow-tags",
+    "minor": "npm version minor -m\"update version to %s\" && git push --follow-tags",
+    "major": "npm version major -m\"update version to %s\" && git push --follow-tags"
   },
   "keywords": [
     "wix",
@@ -21,15 +21,15 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-jasmine": "^2.10.1",
-    "eslint-plugin-lodash": "^6.0.0",
-    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jasmine": "^4.1.1",
+    "eslint-plugin-lodash": "^7.1.0",
+    "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-wix-editor": "^3.0.0"
   },
   "devDependencies": {},
   "peerDependencies": {
-    "eslint": ">=5.0.0"
+    "eslint": ">=6.4.0"
   },
   "files": [
     "index.js",
