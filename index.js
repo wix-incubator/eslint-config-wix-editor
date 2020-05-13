@@ -45,6 +45,7 @@ module.exports = {
         "no-shadow": 2,
         "no-shadow-restricted-names": 2,
         "no-spaced-func": 2,
+        "semi-style": 2,
         "semi-spacing": [2, {"before": false, "after": true}],
         "no-sparse-arrays": 2,
         "no-sync": 0,
@@ -53,6 +54,7 @@ module.exports = {
         "no-unused-vars": [2, {"vars": "all", "args": "after-used"}],
         "no-warning-comments": [0, {"terms": ["todo", "fixme", "xxx"], "location": "start"}],
         "yoda": 2,
+        "no-useless-call": 2,
 
         "block-scoped-var": 2,
         "brace-style": [2, "1tbs", {"allowSingleLine": true}],
@@ -149,6 +151,7 @@ module.exports = {
         "no-throw-literal": 2,
         "block-spacing": [0, "always"],
         "no-useless-concat": 2,
+        "switch-colon-spacing": 2,
 
         "array-callback-return": 2,
         "newline-per-chained-call": [0, {"ignoreChainWithDepth": 3}],
@@ -163,12 +166,40 @@ module.exports = {
         "no-useless-constructor": 2,
         "no-whitespace-before-property": 2,
         "one-var-declaration-per-line": 2,
-        "prefer-rest-params": 0,
-        "sort-imports": 2,
+        "sort-imports": 0,
         "template-curly-spacing": 0,
         "no-confusing-arrow": 0,
         "yield-star-spacing": 0,
-        "no-async-promise-executor": 2
+        "no-async-promise-executor": 2,
+        "default-param-last": 0,
+        "prefer-regex-literals": 2,
+        "no-import-assign": 2,
+        "no-duplicate-imports": 2,
+        "no-const-assign": 2,
+        "no-this-before-super": 2,
+        "no-useless-computed-key": 2,
+        "rest-spread-spacing": 2,
+        "prefer-spread": 2,
+        "prefer-numeric-literals": 2,
+        "prefer-destructuring": [
+            "error", {
+                "VariableDeclarator": {
+                    "array": false,
+                    "object": true
+                },
+                "AssignmentExpression": {
+                    "array": false,
+                    "object": false
+                }
+            }, {
+                "enforceForRenamedProperties": false
+            }
+        ],
+        "no-useless-rename": 2,
+        "no-dupe-class-members": 2,
+        "no-class-assign": 2,
+        "constructor-super": 2,
+        "no-await-in-loop": 2
     },
     parserOptions: {
         "ecmaVersion": 2018

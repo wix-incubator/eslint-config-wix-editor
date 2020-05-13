@@ -1,6 +1,6 @@
 'use strict';
 module.exports = {
-    extends: ["wix-editor"],
+    extends: ["./index"],
     plugins: ["import"],
     env: {
         "es6": true,
@@ -28,7 +28,8 @@ module.exports = {
         "prefer-arrow-callback": 2,
         "prefer-const": 2,
         "prefer-reflect": [0, { "exceptions": ["apply"] }],
-        "prefer-spread": 0,
+        "prefer-spread": 2,
+        "prefer-rest-params": 2,
         "prefer-template": 2,
         "require-yield": 2,
         "template-curly-spacing": 2,
