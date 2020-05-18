@@ -9,7 +9,9 @@
   "scripts": {
     "patch": "npm version patch -m\"update version to %s\" && git push --follow-tags",
     "minor": "npm version minor -m\"update version to %s\" && git push --follow-tags",
-    "major": "npm version major -m\"update version to %s\" && git push --follow-tags"
+    "major": "npm version major -m\"update version to %s\" && git push --follow-tags",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "wix",
@@ -25,7 +27,8 @@
     "eslint-plugin-jasmine": "^4.1.1",
     "eslint-plugin-lodash": "^7.1.0",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-wix-editor": "^3.0.0"
+    "eslint-plugin-wix-editor": "^3.0.0",
+    "snyk": "^1.321.0"
   },
   "devDependencies": {},
   "peerDependencies": {
@@ -44,5 +47,6 @@
     "santa-test-es6.js",
     "santa-package.js",
     "santa-package-esm.js"
-  ]
+  ],
+  "snyk": true
 }
