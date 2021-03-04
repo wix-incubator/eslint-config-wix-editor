@@ -8,7 +8,7 @@ module.exports = {
         "browser": false,
         "worker": true
     },
-    "plugins": ["react", "santa", "lodash", "wix-editor"],
+    "plugins": ["react", "@wix/eslint-plugin-santa", "lodash", "wix-editor"],
     "settings": {
         "react": {
             "createClass": "createClass", // Regex for Component Factory to use, default to "createClass"
