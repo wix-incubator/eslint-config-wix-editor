@@ -8,6 +8,7 @@
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for [Wix](https://github.com/wix)'s editor group
 
 
+
 ## Install
 
 ```
