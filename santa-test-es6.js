@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 // santa test package
 module.exports = {
     "extends": ["./santa-es6.js"],
@@ -58,4 +58,4 @@ module.exports = {
         "react/prefer-es6-class": 0,
         "react/require-extension": 0
     }
-};
+}

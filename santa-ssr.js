@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 // santa ssr package
 const santa = require('./santa-es6')
 const restricted = santa.rules["no-restricted-syntax"]
@@ -16,4 +16,4 @@ module.exports = {
             }
         ])
     }
-};
+}

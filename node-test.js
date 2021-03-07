@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 // santa test package
 module.exports = {
     "extends": ["./node.js"],
@@ -18,4 +18,4 @@ module.exports = {
         "jasmine/no-disabled-tests": 0
         // "santa/no-jasmine-outside-describe": 2
     }
-};
+}

@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 // santa es5 package
 module.exports = {
     "extends": ["wix-editor", "plugin:lodash/canonical"],
@@ -12,12 +12,12 @@ module.exports = {
     "settings": {
         "react": {
             "createClass": "createClass", // Regex for Component Factory to use, default to "createClass"
-            "pragma": "React",  // Pragma to use, default to "React"
+            "pragma": "React", // Pragma to use, default to "React"
             "version": "0.14.0" // React version, default to the latest React stable release
         }
     },
     "rules": {
-        "max-len": [2, { "code": 1600, "ignoreComments": true }],
+        "max-len": [2, {"code": 1600, "ignoreComments": true}],
         // "no-restricted-properties": [2, {
         //     "object": "Object",
         //     "property": "assign",
@@ -122,4 +122,4 @@ module.exports = {
         "window": false,
         "define": false
     }
-};
+}

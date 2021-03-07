@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 module.exports = {
     extends: ["./index"],
     plugins: ["import"],
@@ -15,7 +15,7 @@ module.exports = {
         /* es6 */
         "arrow-body-style": [2, "as-needed"],
         "arrow-parens": [2, "as-needed"],
-        "arrow-spacing": [2, { "before": true, "after": true }],
+        "arrow-spacing": [2, {"before": true, "after": true}],
         "constructor-super": 2,
         "generator-star-spacing": [2, {"before": true, "after": false}],
         "no-class-assign": 2,
@@ -27,7 +27,7 @@ module.exports = {
         "object-shorthand": 2,
         "prefer-arrow-callback": 2,
         "prefer-const": 2,
-        "prefer-reflect": [0, { "exceptions": ["apply"] }],
+        "prefer-reflect": [0, {"exceptions": ["apply"]}],
         "prefer-spread": 2,
         "prefer-rest-params": 2,
         "prefer-template": 2,
@@ -43,4 +43,4 @@ module.exports = {
         "import/no-extraneous-dependencies": 2,
         "import/no-mutable-exports": 2
     }
-};
+}

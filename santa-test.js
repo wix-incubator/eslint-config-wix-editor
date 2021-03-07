@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 // santa test package
 module.exports = {
     "extends": ["./santa-es6.js"],
@@ -6,11 +6,11 @@ module.exports = {
         "jasmine"
     ],
     "settings": {
-      "react": {
-        "createClass": "createReactClass", // Regex for Component Factory to use, default to "createClass",
-        "pragma": "React",  // Pragma to use, default to "React"
-        "version": "15.6.0"
-      }
+        "react": {
+            "createClass": "createReactClass", // Regex for Component Factory to use, default to "createClass",
+            "pragma": "React", // Pragma to use, default to "React"
+            "version": "15.6.0"
+        }
     },
     parserOptions: {
         "ecmaVersion": 2017
@@ -68,4 +68,4 @@ module.exports = {
         "react/prefer-es6-class": 0,
         "react/require-extension": 0
     }
-};
+}

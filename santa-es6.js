@@ -6,7 +6,7 @@ module.exports = {
         "es6": true
     },
     "rules": {
-        "func-style": [0, "declaration", { "allowArrowFunctions": true }],
+        "func-style": [0, "declaration", {"allowArrowFunctions": true}],
         "template-curly-spacing": ["error", "never"],
 
         "react/prop-types": 2,

@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 module.exports = {
     "rules": {
@@ -204,4 +204,4 @@ module.exports = {
     parserOptions: {
         "ecmaVersion": 2018
     }
-};
+}
