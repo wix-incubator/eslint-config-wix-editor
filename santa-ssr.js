@@ -6,8 +6,8 @@ const restricted = santa.rules["no-restricted-syntax"]
 module.exports = {
     "extends": ["./santa-es6.js"],
     "rules": {
-        "santa/no-module-state": 2,
-        "santa/no-experiment-in-component": 2,
+        "@wix/santa/no-module-state": 2,
+        "@wix/santa/no-experiment-in-component": 2,
 
         "no-restricted-syntax": restricted.concat([
             {

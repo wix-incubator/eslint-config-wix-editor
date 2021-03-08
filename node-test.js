@@ -16,6 +16,6 @@ module.exports = {
         "jasmine/no-focused-tests": 2,
         "jasmine/valid-expect": 2,
         "jasmine/no-disabled-tests": 0
-        // "santa/no-jasmine-outside-describe": 2
+        // "@wix/santa/no-jasmine-outside-describe": 2
     }
 }

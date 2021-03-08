@@ -3,8 +3,8 @@
 module.exports = {
     "extends": ["./santa-es6.js"],
     "rules": {
-        "santa/no-module-state": 0,
-        "santa/no-experiment-in-component": 0,
+        "@wix/santa/no-module-state": 0,
+        "@wix/santa/no-experiment-in-component": 0,
         "no-restricted-syntax": [
             "error",
             {
