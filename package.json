@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wix-editor",
-  "version": "8.4.1",
+  "version": "8.4.2",
   "description": "Wix's editor company's custom ESLint config",
   "author": "idok",
   "repository": "git@github.com:wix/eslint-config-wix-editor.git",
